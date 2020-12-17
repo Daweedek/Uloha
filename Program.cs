@@ -13,7 +13,7 @@ namespace UlohaNaPohovor
 
         public static void State(int id)
         {
-            if (isValid != true)
+            if (isValid == false)
             {
                 status = status.Remove(status.Length - 2);
                 Console.WriteLine(id + ") " + status);
